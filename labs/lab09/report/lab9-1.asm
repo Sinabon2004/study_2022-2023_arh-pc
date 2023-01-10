@@ -27,4 +27,5 @@ mov eax,[N]
 call iprintLF
 pop ecx ; извлечение значения ecx из стека
 loop label
+; переход на `label`
 call quit
